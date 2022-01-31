@@ -10,6 +10,10 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 8080;
 
+app.get("/test", (req, res) => {
+  res.send({ status: "200", message: "hello! Test is a success" });
+});
+
 app.post("/handle", async (req, res) => {
   let value = await lib.parseAsString(req.body.data);
   value =
@@ -22,5 +26,5 @@ app.post("/handle", async (req, res) => {
 });
 
 app.listen(PORT, (req, res) => {
-  console.log("Listening to the port ", PORT);
+  console.log("Listening to the port 8080", PORT);
 });
