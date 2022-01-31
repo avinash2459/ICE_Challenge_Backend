@@ -26,5 +26,5 @@ app.post("/handle", async (req, res) => {
 });
 
 app.listen(PORT, (req, res) => {
-  console.log("Listening to the port 8080", PORT);
+  console.log("Listening to the port ", PORT);
 });
