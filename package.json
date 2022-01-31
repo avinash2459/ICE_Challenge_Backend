@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-tech-test-master",
+  "version": "1.0.0",
+  "description": "## Build a web application that transforms tab-delimited data into a JSON output.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-file": "^2.0.2",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  }
+}
