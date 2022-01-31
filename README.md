@@ -18,6 +18,14 @@ Command to start the Node Server to access the API
 npm start
 ```
 
+## EndPoints:
+
+> /test
+
 Once the application has been started, enpoint /test can be accessed to test the application.
 
 /test API response => {"status":"200","message":"hello! Test is a success"}
+
+> /handle
+
+The TSV to JSON conversion is done using the POST API /handle
